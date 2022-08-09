@@ -1,0 +1,248 @@
+/* TOP NAVBAR SECTION */
+body{
+background-image: url("https://images.unsplash.com/photo-1424460421773-58b49adfc68a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+background-repeat:no-repeat;
+background-size: cover;
+background-attachment: fixed;
+}
+
+
+/* HOME PAGE */
+#home-page{
+  margin-top: 3rem;
+}
+hr{
+  left: 10rem;
+  width: 35rem;
+  height: .1rem;
+  position: absolute;
+  z-index: 1;
+  background-color: white;
+}
+
+
+/* HOMEPAGE NAVBAR */
+span{
+font-family: 'Barlow Condensed';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: 2.7px;
+margin-right: .5rem;}
+
+.navbar-toggler{
+border-color: white;
+}
+.navbar-home-page{
+padding-left: 2rem;
+padding-right: 0;
+}
+.ms-auto{
+padding-left: 10rem;
+}
+.navbar-nav{
+  box-shadow: 0 0 10px 0 ;
+  background: inherit;
+  backdrop-filter: blur(10px);
+}
+.nav-item-technology{
+  padding-right: 10rem;
+  letter-spacing: 2.75px;
+  font-family: 'Barlow Condensed';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: 2.7px;
+}
+.nav-item-destination,.nav-item-home,.nav-item-crew{
+  margin-right: 2rem;
+  letter-spacing: 2.75px;
+  font-family: 'Barlow Condensed';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: 2.7px;
+}
+
+/* HOMEPAGE NAVBAR UNDERLINE EFFECT */
+.navbar .navbar-nav .nav-link:hover {
+  color: white;
+}
+.navbar .navbar-nav .nav-link {
+  color: white;
+  font-size: 1.1em;
+}
+@media only screen and (min-width: 992px) {
+  .navbar {
+    padding: 0;
+  }
+  .navbar .navbar-brand {
+    padding: 0 0.7em;
+  }
+  .navbar .navbar-nav .nav-link {
+    padding: 1em 0;
+  }
+  .navbar .navbar-nav .nav-item {
+    margin: 0 1em;
+  }
+}
+
+.navbar-nav > li {
+  float: left;
+  position: relative;
+}
+.navbar .navbar-nav .active a::after {
+  border-bottom: 5px solid #5bc0eb;
+  bottom: -10px;
+  content: " ";
+  left: 0;
+  position: absolute;
+  right: 0;
+}
+
+.navbar .navbar-nav .nav-item {
+  position: relative;
+}
+.navbar .navbar-nav .nav-item::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: white;
+  width: 0%;
+  content: "";
+  height: 4px;
+}
+.navbar .navbar-nav .nav-item:hover::after {
+  width: 100%;
+}
+
+.active{
+  display:inline-block;
+    border-bottom:1px solid white;
+    padding-bottom:6px;
+}
+
+
+/* MEDIA QUERY */
+@media (max-width:1300px) {
+
+
+
+
+}
+
+@media (max-width:990px) {
+  .tech-col{
+  text-align:center;
+
+  }
+
+
+}
+@media(max-width:764px) {
+  body{
+    background-image: url("https://images.unsplash.com/photo-1424460421773-58b49adfc68a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: inherit;
+  }
+  hr{
+    position: absolute;
+    z-index: -1;
+  }
+
+
+}
+@media(max-width:600px)
+{
+  body{
+    background-image: url("https://images.unsplash.com/photo-1424460421773-58b49adfc68a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment:inherit;
+  }
+}
+
+
+
+/* FORM SECTION */
+body {
+  font-family: 'Barlow Condensed';
+  font-style: normal;
+  letter-spacing: 3px;
+  background-color: black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.form{
+  margin-top: 3rem;
+}
+.container{
+  background-color: black;
+}
+
+/* Add padding to containers */
+.container {
+  color: white;
+  padding: 16px;
+  background-image: url("https://images.unsplash.com/photo-1424460421773-58b49adfc68a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit button */
+.registerbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
